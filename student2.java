@@ -1,0 +1,4 @@
+/*
+Test nested exception by putting exception handling mechanism in the above method and also in main
+method.
+*/
