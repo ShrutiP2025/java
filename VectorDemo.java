@@ -1,17 +1,15 @@
 //Program to demonstrate Vector Class
 
-package com.tnsif.daysixteen;
-
 import java.util.Iterator;
 import java.util.Vector;
 
 public class VectorDemo {
 
 	public static void main(String[] args) {
-		Vector<String> animals = new Vector<>();
+		Vector<String> animals = new Vector<String>();
 		animals.add("Dog");
 		animals.add("Horse");
-		animals.add("Cat");)
+		animals.add("Cat");
 		System.out.println("Initial Vector: " + animals);
 		// Using get()
 		String element = animals.get(2);
